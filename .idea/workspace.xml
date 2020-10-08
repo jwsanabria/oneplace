@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48b4ecd3-aaaa-410f-95e8-24c9f699ad1b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/oneplace/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/oneplace/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp/templates/oneplace/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/templates/oneplace/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp/templates/oneplace/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/templates/oneplace/navbar.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oneplace/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="137" column="45" lean-forward="true" selection-start-line="137" selection-start-column="45" selection-end-line="137" selection-end-column="45" />
+            <state relative-caret-position="400">
+              <caret line="141" column="33" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="33" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
@@ -30,15 +31,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -61,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -73,27 +65,40 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="17">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chatapp/views.py">
+      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="51">
+              <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oneplace/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="logout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/logout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="asgi.py" pinned="false" current-in-tab="false">
@@ -127,12 +132,13 @@
         <option value="$PROJECT_DIR$/chatapp/urls.py" />
         <option value="$PROJECT_DIR$/chatapp/templates/oneplace/login.html" />
         <option value="$PROJECT_DIR$/chatapp/templates/oneplace/base.html" />
-        <option value="$PROJECT_DIR$/chatapp/templates/oneplace/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/oneplace/asgi.py" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/oneplace/settings.py" />
+        <option value="$PROJECT_DIR$/chatapp/templates/oneplace/index.html" />
+        <option value="$PROJECT_DIR$/chatapp/templates/oneplace/navbar.html" />
       </list>
     </option>
   </component>
@@ -158,7 +164,30 @@
             <path>
               <item name="oneplace" type="b2602c69:ProjectViewProjectNode" />
               <item name="oneplace" type="462c0819:PsiDirectoryNode" />
+              <item name="chatapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oneplace" type="b2602c69:ProjectViewProjectNode" />
               <item name="oneplace" type="462c0819:PsiDirectoryNode" />
+              <item name="chatapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oneplace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oneplace" type="462c0819:PsiDirectoryNode" />
+              <item name="chatapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="oneplace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oneplace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oneplace" type="462c0819:PsiDirectoryNode" />
+              <item name="oneplace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oneplace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oneplace" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oneplace" type="b2602c69:ProjectViewProjectNode" />
@@ -248,32 +277,12 @@
     <entry file="file://$PROJECT_DIR$/chatapp/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/logout.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oneplace/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#632#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -331,20 +340,6 @@
     <entry file="file://$PROJECT_DIR$/oneplace/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -382,11 +377,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oneplace/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="137" column="45" lean-forward="true" selection-start-line="137" selection-start-column="45" selection-end-line="137" selection-end-column="45" />
+        <state relative-caret-position="400">
+          <caret line="141" column="33" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="33" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatapp/templates/oneplace/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
         </state>
       </provider>
     </entry>
