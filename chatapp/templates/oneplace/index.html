@@ -1,0 +1,12 @@
+{% extends "oneplace/base.html" %}
+    {% block title %}I'llReport Index{% endblock title %}
+
+    {% block body %}
+        {% if user.is_authenticated %}
+            {% include "oneplace/logout.html" %}
+            <p>Hola {{ user.first_name }} {{ user.last_name }}</p>
+            <p>Esto es una {{ prueba }}</p>
+        {% else %}
+            {% include "oneplace/login.html" %}
+        {% endif %}
+    {% endblock body %}
